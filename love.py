@@ -86,4 +86,53 @@
 
 # git status check the status of your project
 
+# git add . is used to add multiple files
+# Omit --global to set the identity only in this repository.
+
+# fatal: unable to auto-detect email address (got 'pc@DESKTOP-3QUJ44S.(none)')
+
+# pc@DESKTOP-3QUJ44S MINGW64 ~/desktop/dev/git/class 1 (master)
+# $ git commit -m'my first commit'
+# Author identity unknown
+
+# *** Please tell me who you are.
+
+# Run
+
+#   git config --global user.email "you@example.com"
+#   git config --global user.name "Your Name"
+
+# to set your account's default identity.
+# Omit --global to set the identity only in this repository.
+
+# fatal: unable to auto-detect email address (got 'pc@DESKTOP-3QUJ44S.(none)')
+
+# pc@DESKTOP-3QUJ44S MINGW64 ~/desktop/dev/git/class 1 (master)
+# $ ^C
+
+# pc@DESKTOP-3QUJ44S MINGW64 ~/desktop/dev/git/class 1 (master)
+# $ git config --global user.email "onyedikachukwu.okere@gmail.com"
+
+# pc@DESKTOP-3QUJ44S MINGW64 ~/desktop/dev/git/class 1 (master)
+# $ git config --global user.name "love"
+
+# pc@DESKTOP-3QUJ44S MINGW64 ~/desktop/dev/git/class 1 (master)
+# $ git commit -m'my first commit'
+# [master (root-commit) 07f046a] my first commit
+#  1 file changed, 89 insertions(+)
+#  create mode 100644 love.py
+
+# pc@DESKTOP-3QUJ44S MINGW64 ~/desktop/dev/git/class 1 (master)
+# $ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git restore <file>..." to discard changes in working directory)
+#         modified:   love.py
+
+# no changes added to commit (use "git add" and/or "git commit -a")
+
+# pc@DESKTOP-3QUJ44S MINGW64 ~/desktop/dev/git/class 1 (master)
+# $
+
 print('hello am learning git')
