@@ -2,9 +2,11 @@ def greet():
     return "Hello Man"
 
 def sum(a, b):
-    ans = a+b
+    ans = a+b;
+    return ans;
     # print(ans)
-    return ans
+    
+
 
 # print(greet())
 # print(sum(3, 5))
@@ -17,7 +19,7 @@ def sum(a, b):
 write a function to count the number of even and odd numbers from a series of numbers
 '''
 list = [34, 2, 9, 100, 43];
-ages = [12, 32, 90, 43]
+ages = [12, 32, 90, 43];
 
 def odd_and_even_count(array):
     even_no_count = 0;
@@ -32,4 +34,4 @@ def odd_and_even_count(array):
     print("odd numbers count: "+str(odd_no_count))
 
 
-odd_and_even_count(list)
+odd_and_even_count(list);
