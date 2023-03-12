@@ -1,0 +1,7 @@
+In a family reality TV show, different families are expected to register three family members only.
+
+The criteria is such that the sum of the ages of the three family members must not exceed 100.
+
+Write a function to determine if the a family is eligible.
+
+Hint: your function should accept 3 arguments with each argument representing the age of each family member
